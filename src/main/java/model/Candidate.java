@@ -7,7 +7,7 @@ public class Candidate {
     private String firstName;
     private String lastName;
     private String years;
-    private String phone;
+    private String telephone;
     private String job;
     private String jobCategory;
     private String experience;
@@ -20,7 +20,7 @@ public class Candidate {
         this.firstName = firstName;
         this.lastName = lastName;
         this.years = years;
-        this.phone = phone;
+        this.telephone = phone;
         this.job = job;
         this.jobCategory = jobCategory;
         this.experience = experience;
@@ -50,12 +50,12 @@ public class Candidate {
         this.years = years;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
     public String getJob() {
